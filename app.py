@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, jsonify
 import google.generativeai as genai
-
+import os
 app = Flask(__name__,static_folder="static")
-
-genai.configure(api_key="AIzaSyAih-_qtidjx7wsywtlOVBHcwf1UqHBgCY")
+GENAI_API_KEY = os.getenv("GENAI_API_KEY")
+genai.configure(api_key=GENAI_API_KEY)
 
 @app.route("/")
 def home():
