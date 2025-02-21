@@ -5,7 +5,7 @@ import google.generativeai as genai
 app = Flask(__name__, static_folder="static")
 
 # Load API key from environment variables
-genai_api_key = os.getenv("GENAI_API_KEY")
+genai_api_key = os.getenv(GENAI_API_KEY)
 if genai_api_key:
     genai.configure(api_key=genai_api_key)
 else:
