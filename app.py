@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__, static_folder="static")
 
 # ✅ Correct way to retrieve API key
-genai_api_key = os.getenv("GENAI_API_KEY")  # Ensure "GENAI_API_KEY" is in quotes
+genai_api_key = os.getenv("AIzaSyAih-_qtidjx7wsywtlOVBHcwf1UqHBgC")  # Ensure "GENAI_API_KEY" is in quotes
 
 if not genai_api_key:
     raise ValueError("Missing API key. Set GENAI_API_KEY in Render environment variables.")
