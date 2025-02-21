@@ -1,15 +1,16 @@
 import os
-from flask import Flask, render_template, request, jsonify
 import google.generativeai as genai
+from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__, static_folder="static")
 
-# Load API key from environment variables
-genai_api_key = os.getenv(GENAI_API_KEY)
-if genai_api_key:
-    genai.configure(api_key=genai_api_key)
-else:
-    raise ValueError("Missing GENAI_API_KEY environment variable")
+# ✅ Correct way to retrieve API key
+genai_api_key = os.getenv("GENAI_API_KEY")  # Ensure "GENAI_API_KEY" is in quotes
+
+if not genai_api_key:
+    raise ValueError("Missing API key. Set GENAI_API_KEY in Render environment variables.")
+
+genai.configure(api_key=genai_api_key)
 
 @app.route("/")
 def home():
@@ -22,7 +23,7 @@ def chatbot():
     language = data.get("language", "english")  # Default to English if not set
 
     # Set prompt based on language
-    if language.lower() == "tamil":
+    if language == "tamil":
         prompt = f"""
         இந்த செய்தி உண்மையானதா அல்லது போலியானதா என்பதை பகுப்பாய்வு செய்யவும்.
         முடிவை கூறி அதன் விளக்கத்தைக் கொடுக்கவும்.
@@ -51,5 +52,4 @@ def chatbot():
     return jsonify({"response": response.text})
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Use PORT from environment if available
-    app.run(host="0.0.0.0", port=port)
+    app.run(debug=True)
