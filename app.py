@@ -1,15 +1,9 @@
-import os
-import google.generativeai as genai
 from flask import Flask, render_template, request, jsonify
+import google.generativeai as genai
 
-app = Flask(__name__, static_folder="static")
+app = Flask(__name__,static_folder="static")
 
-# ✅ Correct way to retrieve API key
-genai_api_key = os.getenv("GENAI_API_KEY")
-if not genai_api_key:
-    raise ValueError("Missing API key. Set GENAI_API_KEY in Render environment variables.")
-
-genai.configure(api_key=genai_api_key)
+genai.configure(api_key="AIzaSyAih-_qtidjx7wsywtlOVBHcwf1UqHBgCY")
 
 @app.route("/")
 def home():
