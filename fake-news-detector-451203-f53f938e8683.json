@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fake-news-detector-451203",
+  "private_key_id": "f53f938e868330663c5ed78eeb591b11defac82e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCaUSaMNJR5H60\ne6j7GWWMu9VdmLTrTp0M6ln2jPUj875GHbRmag3PLbJmE21vzy9JrbDhcdqRzudY\nW4HpW2Z0ChV9xxm2602PlsvI79+m+MHhVicDE/MRbNNKY6VV99/ef88ZADNTG9PY\nc5zn/F+Zw6tSNlzRLiF6hjR4zLWRJI23qufQunRZSMpvUuzK6see8gxVeNfpGZEs\npTi8Vk4grjpxTp+fQPzkm+tBvZe1fLtWJ/2MSzYFQAIS8Ixs4OudZtA9OOE5Sg3b\nip8TLlq/XGxImn6uUuw4/VA5eNmgv3PXSFKg8p6m9vn9O3BZOkb6Ib9zUL47z48V\nqpmrCGFfAgMBAAECggEAPjFZ4m/K4KrVw9wpd0atH2P5gms3OW2ZPUf9RqvaQkmX\n7atUCk1UJJqMTy5Y3KNtj8byZnS7RNjpVnFTsnjsYiPVszqN5eAJnG1TvPDL3gkH\nURRz/36SzFjBkTMmccWNxwqhEHDpemVVFJILuIUaekDH3lGIyNxWlnE3eQuX7Bmz\nVCACPkCcblnmsGFo1rkMKmIf6+LRmaKFfRxSJc5GGDawSaZ72Wj8LftGjq4oL9PS\nPTz7wY36IVRqwIAJcyPRt0wP5m/Byu+/G8kmJL9gFJAYZ4Bbvf8cIA6w9qnGrwEi\nkLf3Bm4b0cI9LNduMD1kWyHaq6EOKJgsjWkvfcDagQKBgQD6RM04O3qLZX4gTicm\n6XYLqH3zAgjhAuh4nfU47/65dsXghbllMKz+fijfjBKjtdbNWIJedY3Q2SaM85P3\n3QR67hXQMQPWEDke7XqqfBIYkZgRhIgt8Ebz5l+wbeZQS146ammvVzjpPyDjvfN/\nhWX0F8KTenVsjaeMTbQoPqO4gQKBgQDG3QB+XYEU2xLPXkcEopdoTAV63qJxZubM\npiJRNE23QA0P7SYOs4Izr/g2n8WMnkmP7qyTTiFMr7dbaHsdBlYuVNOrOJpQotEh\n+cZy6Ndkp+5odXaHyHuDA5j0Evh4zZnQLafF3pg6+nD9lkehBf7SRTg3ad/rPokk\n1dMn4t4p3wKBgAigZH6CtleluPI+H2Vc+L+wIB9HO60d34uAzloXE62q5Wk20swl\nIGFpUdlax62y7+OGIIBHBwti4MxM/RW3HZdrK39QoTQ4vO9O+kJ0Il+MbTR1YAhN\nVvTDRRscvqqX3nifAGOV2xVXIrgW7RTBMWF3jDJvLyr9uv/AEeytNBGBAoGAHOPk\ne3c4FoCRJgErThgU6PkKXsRTUyhA5YBJQgTYOYQbobGxMrePddTduYnSmFAyna9t\n8OSL3+kzORtfr2LJSGfYbGqHuKk+urHfy7fZ+uyOrSxLcQSGNQ1jvim3YU11SBIp\n6owhD4hsu9qGQ3VshL27oglGl5V5NRm/WG8UGX8CgYAsF+i4p105AvKulrspS6GR\nIh+dNjtR9nRa8/zwBa+VT4xIEbwx4eyKsB58VfgLcpHd3OkSvdzTm/2Y9s1EghxV\nZ1ZRqit+4iaxfo1AhIl2N51APj+oTJXQLIE0r0WEREzeCnO1xudATF4RJZIwd3iQ\nTyCfMarnVcF8F8UmBc1fAA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "fake-news@fake-news-detector-451203.iam.gserviceaccount.com",
+  "client_id": "107240936632415514373",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fake-news%40fake-news-detector-451203.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

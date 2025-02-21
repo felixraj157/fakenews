@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detector Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <script defer src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker
+                .register("/static/js/sw.js")
+                .then(() => console.log("Service Worker Registered"))
+                .catch((error) => console.log("Service Worker Registration Failed", error));
+        }
+    </script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header"> Chatbot</div>
+        <div id="chatbox">
+            <div class="message bot">Please choose a language: Type <b>"Tamil"</b> or <b>"English"</b>.</div>
+        </div>
+
+        <!-- Chat input field -->
+        <div class="chat-input">
+            <input type="text" id="user_input" placeholder="Type here..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">▶</button>
+        </div>
+    </div>
+</body>
+</html>
