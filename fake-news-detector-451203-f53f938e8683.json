@@ -1,13 +1,12 @@
-{
-  "type": "service_account",
-  "project_id": "fake-news-detector-451203",
-  "private_key_id": "f53f938e868330663c5ed78eeb591b11defac82e",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCaUSaMNJR5H60\ne6j7GWWMu9VdmLTrTp0M6ln2jPUj875GHbRmag3PLbJmE21vzy9JrbDhcdqRzudY\nW4HpW2Z0ChV9xxm2602PlsvI79+m+MHhVicDE/MRbNNKY6VV99/ef88ZADNTG9PY\nc5zn/F+Zw6tSNlzRLiF6hjR4zLWRJI23qufQunRZSMpvUuzK6see8gxVeNfpGZEs\npTi8Vk4grjpxTp+fQPzkm+tBvZe1fLtWJ/2MSzYFQAIS8Ixs4OudZtA9OOE5Sg3b\nip8TLlq/XGxImn6uUuw4/VA5eNmgv3PXSFKg8p6m9vn9O3BZOkb6Ib9zUL47z48V\nqpmrCGFfAgMBAAECggEAPjFZ4m/K4KrVw9wpd0atH2P5gms3OW2ZPUf9RqvaQkmX\n7atUCk1UJJqMTy5Y3KNtj8byZnS7RNjpVnFTsnjsYiPVszqN5eAJnG1TvPDL3gkH\nURRz/36SzFjBkTMmccWNxwqhEHDpemVVFJILuIUaekDH3lGIyNxWlnE3eQuX7Bmz\nVCACPkCcblnmsGFo1rkMKmIf6+LRmaKFfRxSJc5GGDawSaZ72Wj8LftGjq4oL9PS\nPTz7wY36IVRqwIAJcyPRt0wP5m/Byu+/G8kmJL9gFJAYZ4Bbvf8cIA6w9qnGrwEi\nkLf3Bm4b0cI9LNduMD1kWyHaq6EOKJgsjWkvfcDagQKBgQD6RM04O3qLZX4gTicm\n6XYLqH3zAgjhAuh4nfU47/65dsXghbllMKz+fijfjBKjtdbNWIJedY3Q2SaM85P3\n3QR67hXQMQPWEDke7XqqfBIYkZgRhIgt8Ebz5l+wbeZQS146ammvVzjpPyDjvfN/\nhWX0F8KTenVsjaeMTbQoPqO4gQKBgQDG3QB+XYEU2xLPXkcEopdoTAV63qJxZubM\npiJRNE23QA0P7SYOs4Izr/g2n8WMnkmP7qyTTiFMr7dbaHsdBlYuVNOrOJpQotEh\n+cZy6Ndkp+5odXaHyHuDA5j0Evh4zZnQLafF3pg6+nD9lkehBf7SRTg3ad/rPokk\n1dMn4t4p3wKBgAigZH6CtleluPI+H2Vc+L+wIB9HO60d34uAzloXE62q5Wk20swl\nIGFpUdlax62y7+OGIIBHBwti4MxM/RW3HZdrK39QoTQ4vO9O+kJ0Il+MbTR1YAhN\nVvTDRRscvqqX3nifAGOV2xVXIrgW7RTBMWF3jDJvLyr9uv/AEeytNBGBAoGAHOPk\ne3c4FoCRJgErThgU6PkKXsRTUyhA5YBJQgTYOYQbobGxMrePddTduYnSmFAyna9t\n8OSL3+kzORtfr2LJSGfYbGqHuKk+urHfy7fZ+uyOrSxLcQSGNQ1jvim3YU11SBIp\n6owhD4hsu9qGQ3VshL27oglGl5V5NRm/WG8UGX8CgYAsF+i4p105AvKulrspS6GR\nIh+dNjtR9nRa8/zwBa+VT4xIEbwx4eyKsB58VfgLcpHd3OkSvdzTm/2Y9s1EghxV\nZ1ZRqit+4iaxfo1AhIl2N51APj+oTJXQLIE0r0WEREzeCnO1xudATF4RJZIwd3iQ\nTyCfMarnVcF8F8UmBc1fAA==\n-----END PRIVATE KEY-----\n",
-  "client_email": "fake-news@fake-news-detector-451203.iam.gserviceaccount.com",
-  "client_id": "107240936632415514373",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fake-news%40fake-news-detector-451203.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+	
+type	"service_account"
+project_id	"fake-news-detector-451203"
+private_key_id	"e5f090cda743dc0236be87bb459e72aa2794c083"
+private_key	"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQ3XZjNqkJ6150\nKQ7Kj+8cQPq4tkPe3eW4ULDx/nx5PGAHkrTkXmUjOXBA2T88drJ89TZe1f2wyv6t\nys21EbhoZ8VbZRM3u3JOTVvkkbhwl8lAZhrAPoKeBHazrykis4OsW59kRdg+nQje\nGoMRpD8myRzcDN9AsxW4h1g+bNO9jQ7X9Yav+vAzO9sG/S2+zIRXrl2lS6un2JF5\n61mOYV7N5wFiN3YuGiqeKcyow54cadckHzth/m8Y8ifqFYojs0RTIRxagzpYXPN8\ngWCvd8MekF5ysfEDrjiiIzkspfWdD1UnBICQ6oEvDStLVxOPLG6J91PDCIiGvxxJ\npKk5m5YrAgMBAAECggEANjwDZUDIxQAejygoJJYaXypKUFNXrVPONj2RrMzJkouI\nXf8MxK30MiDUkqo2vuMNduAPhbGoRdN4LTWXk7htu4KSnyhQRK0CQe3ZejEShP4M\n7pF0yc2Riimbjw3hLxcRDlzeNyHhxGRvbIjS1u5gzZf0S/l1sS2varKOSetlUfcK\nJjF/vRyCJLfyqZMFCLnWmNIYSdlOZZuBY2ZqXvBuyPAiZT9glyTxl0Tkl1IcPcat\nzU6DASNGZy3FczuIolqr0Xc6ER13kTx3mJuu7TdETWBMKohIRwzusHHHphmh0Oth\ntK52c5xOWPGjUgYrR1S6S9l1s5743TmeVDlbUtWmHQKBgQDvZvdJtwU5PLhcDVYg\nu3AZwJDZBhviQEYUC9LlSxgZkJUuw6AEBi2xDQmRNwjLRPDVYtL+dXCAy8O6HFr+\nhxgMYpqeDe56mxMsNeQmCDNJ4WiF0L9oxuUgH9DPUWNEWSe9tI+wHeAWq2sV/vC5\nPx/T/QsonPwrzVKlx8LSDq5G/QKBgQDfWIIC5WJ9Pup2P+6pux4G26wkbZRwIZWm\nLSYcA2ZtuRzKOiK2SXKB6anpMvk1F2h3LRIyNBLiHfkF6/sok1uLhK3S3DEXdimr\nwqwhB1D3gMQ0vtqbzccPsCEddfB9SD/L220aQDpaMDur9HyY6mD1EpYVEFSjXWdi\njgMIbJleRwKBgQCxvLA7ejXWmM4HCZ+4DXDcrarcdTyebTmaCG067tWlpUIcxgA2\n/J9Po25G8aUFxNlIk2YypN4xwRY/Rm4IKiQgjdRdI9q6DAff+uK3mb76Su9e6ewx\nzfiuMPDF+pbIV6i5nyROjN+h9QI8AlqWLddje6qdLG/L1VRW4Egzy9J3wQKBgHgN\nIB0kZXNDDU4wgT3UqYgwLfCKwj4fn0vqetCV90nFNbdx1lS7WASCr+T8lD24bluY\n62321aubRs6rEJ63zn5I/BIab3zX9AAyLMm4IApZuZ1MdT9INda16qbmTTVaT4hp\nUtTIb1UpFfoQ+aRMX3971RZPZ99EBp1QDktJ7IpjAoGAAv8iPVh5/Ee46C5TqNfi\nZLE45q2lBCy1v8Ba4Q2qwPDZXI/+kbWltYUQIfUL/b9uVtDuZ4MyVZJvSTzYAH0w\n1/UBz5KUGsivSSMNcR/eiaX/5f5Olg7KdddSmLUVv+BZgax9A6+65k6mPTXu4SwN\nYbif4QHhh3fkCkD21FDU4rw=\n-----END PRIVATE KEY-----\n"
+client_email	"fake-news@fake-news-detector-451203.iam.gserviceaccount.com"
+client_id	"107240936632415514373"
+auth_uri	"https://accounts.google.com/o/oauth2/auth"
+token_uri	"https://oauth2.googleapis.com/token"
+auth_provider_x509_cert_url	"https://www.googleapis.com/oauth2/v1/certs"
+client_x509_cert_url	"https://www.googleapis.com/robot/v1/metadata/x509/fake-news%40fake-news-detector-451203.iam.gserviceaccount.com"
+universe_domain	"googleapis.com"
